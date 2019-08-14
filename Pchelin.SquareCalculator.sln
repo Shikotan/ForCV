@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pchelin.SquareCalculator", "Pchelin.SquareCalculator\Pchelin.SquareCalculator.csproj", "{A1948BD3-82CF-417D-A456-F1B6DAA22AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1948BD3-82CF-417D-A456-F1B6DAA22AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1948BD3-82CF-417D-A456-F1B6DAA22AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1948BD3-82CF-417D-A456-F1B6DAA22AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1948BD3-82CF-417D-A456-F1B6DAA22AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
