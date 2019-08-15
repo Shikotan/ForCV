@@ -20,5 +20,19 @@ namespace Pchelin.SquareCalculator.Tests
             Assert.AreEqual(5, triangle.B);
             Assert.AreEqual(4, triangle.C);
         }
+
+        [Test]
+        public void ConstructRigthTriangle()
+        {
+            var triangle = new Triangle(3, 4, 5);
+            Assert.AreEqual(true, triangle.IsRight);
+        }
+
+        [Test]
+        public void ConstructNotRigthTriangle()
+        {
+            var triangle = new Triangle(3, 4, 7);
+            Assert.AreEqual(false, triangle.IsRight);
+        }
     }
 }
