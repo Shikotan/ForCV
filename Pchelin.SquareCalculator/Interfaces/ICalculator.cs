@@ -1,7 +1,7 @@
-﻿using System;
-namespace Pchelin.SquareCalculator.Interfaces
+﻿namespace Pchelin.SquareCalculator.Interfaces
 {
     public interface ICalculator
     {
+        double CalculateSquare(IShape shape);
     }
 }
